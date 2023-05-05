@@ -1,6 +1,6 @@
 # Adjusted Direct Convolution
 
-This script was designed to determine the shift between two data sets as part of electrochemical research performed at Florida Tech. The algorithm takes in two 2D sets of data (as 4 arrays) and will output a 1D array of the total offsets between corresponding points as the first data set 'slides' over the second.
+This script was designed to determine the shift between two data sets as part of electrochemical research performed at Florida Tech. The algorithm takes in two 2D sets of data (as 4 arrays) and will output a 1D array of the total offsets between corresponding points as the first data set 'slides' over the second. Importantly, the algorithm will work on datasets of different sizes.
 
 As the first dataset is passed over the second, the algorithm will compute the average difference between corresponding values in the set. As more x-values in the datasets overlap, more values will contribute to the average (but if the data tends to be monotonic, each difference will likely decrease). When all data points are shifted to the right of the second dataset, the algorithm will stop and return the list of average differences. The index wose value is closest to 0 is likely the best estimate for the total offset of the data.
 
