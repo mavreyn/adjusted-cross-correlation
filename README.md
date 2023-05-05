@@ -1,4 +1,4 @@
-# Adjusted Direct Convolution
+# Adjusted Direct Correlation
 
 This script was designed to determine the shift between two data sets as part of electrochemical research performed at Florida Tech. The algorithm takes in two 2D sets of data (as 4 arrays) and will output a 1D array of the total offsets between corresponding points as the first data set 'slides' over the second. Importantly, the algorithm will work on datasets of different sizes.
 
