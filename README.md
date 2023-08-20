@@ -2,7 +2,7 @@
 
 This project was designed to help predict the offset of two dimensional data along the x-axis using SciPy's correlate function. It works similarly to the convolve / fftconvolve functions and produces an output measuring a similar metric.
 
-This project and web-app was made as a demonstration to show how this method works before applying it on electrochemical research at Florida Tech. But many other applications are practical.
+This project and web-app was made as a demonstration to show how this method works before applying it on ITIES techniques employed during electrochemical research at Florida Tech.
 
 ![web-app example](Screenshot_2023-06-25_172634.png)
 
